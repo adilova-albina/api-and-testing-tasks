@@ -1,61 +1,61 @@
-# API and Testing Tasks
+# Задания по API и тестированию
 
-This repository contains solutions for API design, frontend/backend validation, Flutter development, and software testing tasks.
+В данном репозитории представлены решения заданий по проектированию API, frontend/backend-разработке, Flutter и тестированию программного обеспечения.
 
-## Tasks
+## Список заданий
 
-### API Design
+### Проектирование API
 
-* [Task 11 — Task List API](task-11.md)
-  REST API for creating, viewing, updating status, deleting tasks, and pagination.
+* [Задание 11 — API для списка задач](task-11.md)
+  Проектирование REST API для создания, просмотра, изменения статуса и удаления задач, включая постраничную выдачу.
 
-* [Task 15 — Frontend and Backend Validation](task-15.md)
-  Validation of date of birth and email on frontend and backend, with error handling.
+* [Задание 15 — Валидация данных](task-15.md)
+  Проверка даты рождения и email на frontend и backend, сохранение данных в БД и обработка ошибок.
 
-* [Task 23 — Loading States and Stale Data](task-23.md)
-  Loading, empty, error, partial-result and retry states, including protection from stale responses.
+* [Задание 23 — Состояния загрузки и устаревшие данные](task-23.md)
+  Состояния загрузки, пустого результата, ошибки, частичного результата и повторной загрузки. Защита от отображения устаревших данных.
 
 ### Flutter
 
-* [Task 25 — Flutter List Screen](task-25.md)
-  Flutter screen with API loading, pull-to-refresh, navigation to details, and lifecycle handling.
+* [Задание 25 — Экран списка во Flutter](task-25.md)
+  Загрузка списка из API, обновление свайпом, переход к подробностям, разделение UI и бизнес-логики и работа с жизненным циклом экрана.
 
-### Testing
+### Тестирование
 
-* [Task 26 — Registration Form Testing](task-26.md)
-  Unit, integration, and UI tests for registration form validation.
+* [Задание 26 — Тестирование формы регистрации](task-26.md)
+  Unit-, интеграционные и UI-тесты для формы регистрации.
 
-* [Task 27 — Discount Calculation Testing](task-27.md)
-  Boundary value testing for discount calculation.
+* [Задание 27 — Тестирование расчёта скидки](task-27.md)
+  Проверка граничных значений и выбор подходящего вида тестирования для логики расчёта скидки.
 
-* [Task 28 — Order Endpoint Testing](task-28.md)
-  Successful and error scenarios for order creation and integration testing.
+* [Задание 28 — Тестирование создания заказа](task-28.md)
+  Успешные и ошибочные сценарии создания заказа и интеграционное тестирование.
 
-* [Task 29 — Authorization Library Regression Testing](task-29.md)
-  Testing side effects after changing a shared authorization library.
+* [Задание 29 — Регрессионное тестирование авторизации](task-29.md)
+  Проверка побочных эффектов после изменения общей библиотеки авторизации.
 
-* [Task 30 — Flutter UI Test Cases](task-30.md)
-  Test cases for loading, error, empty states, screen rotation, and returning to the page.
+* [Задание 30 — Тестирование Flutter-экрана](task-30.md)
+  Тест-кейсы для состояний списка, загрузки, ошибки, пустого состояния, поворота экрана и возврата на страницу.
 
 ---
 
-## Technologies and Concepts
+## Используемые технологии и концепции
 
 * REST API
-* HTTP methods and status codes
+* HTTP-методы и коды состояния
 * JSON
-* Pagination
-* Frontend and backend validation
+* Постраничная выдача данных (Pagination)
+* Frontend и Backend валидация
 * Flutter
-* API integration
-* Unit testing
-* Integration testing
-* UI testing
-* Regression testing
-* Boundary value analysis
-* Application lifecycle
+* Работа с API
+* Unit-тестирование
+* Интеграционное тестирование
+* UI-тестирование
+* Регрессионное тестирование
+* Граничные значения
+* Жизненный цикл приложения
 
-## Repository Structure
+## Структура репозитория
 
 ```text
 api-and-testing-tasks/
@@ -70,3 +70,7 @@ api-and-testing-tasks/
 ├── task-28.md
 └── task-30.md
 ```
+
+## Автор
+
+**Альбина Адилова**
